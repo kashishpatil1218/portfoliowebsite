@@ -16,29 +16,29 @@ Drawer my_details() {
         myInfo(),
         Expanded(
           child: SingleChildScrollView(
-            padding: EdgeInsets.all(defaultPadding),
+            padding: const EdgeInsets.all(defaultPadding),
             child: Column(
               children: [
-                areaInfo(
+                const areaInfo(
                   title: "Residence",
                   text: "Gujarat",
                 ),
-                areaInfo(
+                const areaInfo(
                   title: "City",
                   text: "Surat",
                 ),
-                areaInfo(
+                const areaInfo(
                   title: "Age",
                   text: "18",
                 ),
-                skills(),
+                const skills(),
                 SizedBox(
                   height: defaultpadding,
                 ),
-                coding(),
-                Divider(),
-                Padding(
-                  padding: const EdgeInsets.symmetric(vertical: defaultPadding),
+                const coding(),
+                const Divider(),
+                const Padding(
+                  padding: EdgeInsets.symmetric(vertical: defaultPadding),
                   child: Text(
                     'Knowledge',
                     style: TextStyle(
