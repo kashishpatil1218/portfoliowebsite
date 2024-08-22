@@ -5,7 +5,11 @@ import 'components/my_details.dart';
 import '../global.dart';
 
 class MainScreen extends StatelessWidget {
-  const MainScreen({super.key});
+  const MainScreen({
+    Key? key,
+    required this.children,
+  }) : super(key: key);
+  final List<Widget> children;
 
   @override
   Widget build(BuildContext context) {
@@ -21,8 +25,13 @@ class MainScreen extends StatelessWidget {
               ),
               Expanded(
                 flex: 7,
-                child: Container(
-                  color: Colors.blue,
+                child: SingleChildScrollView(
+                  child: Column(
+                    children: [
+                      ...children,
+                      
+                    ],
+                  ),
                 ),
               ),
             ],

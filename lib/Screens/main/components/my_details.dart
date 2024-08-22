@@ -4,6 +4,7 @@ import 'package:portfoliowebsite/Screens/Constant.dart';
 import 'package:portfoliowebsite/Screens/main/components/AnimatedCircular_Pro_indicatore.dart';
 import 'package:portfoliowebsite/Screens/main/components/areaInfo.dart';
 import 'package:portfoliowebsite/Screens/main/components/coding.dart';
+import 'package:portfoliowebsite/Screens/main/components/knowledge.dart';
 import 'package:portfoliowebsite/Screens/main/components/myInfo.dart';
 import 'package:portfoliowebsite/Screens/main/components/my_details.dart';
 import 'package:portfoliowebsite/Screens/main/components/skills.dart';
@@ -36,19 +37,52 @@ Drawer my_details() {
                   height: defaultpadding,
                 ),
                 const coding(),
-                const Divider(),
-                const Padding(
-                  padding: EdgeInsets.symmetric(vertical: defaultPadding),
-                  child: Text(
-                    'Knowledge',
-                    style: TextStyle(
-                        color: Colors.white, fontWeight: FontWeight.w200),
+                Knowledges(),
+                Divider(),
+                SizedBox(height: 20,),
+                TextButton(
+                  onPressed: () {},
+                  child: FittedBox(
+                    child: Row(
+                      children: [
+                        Text(
+                          "DOWNLOAD CV",
+                          style: TextStyle(
+                            color: Colors.grey,
+                          ),
+                        ),
+                        SizedBox(width: 10),
+                        SvgPicture.network("assets/icons/download.svg"),
+                      ],
+                    ),
                   ),
                 ),
-                Row(
-                  children: [
-                    SvgPicture.asset("assets/icons/check.svg",),
-                  ],
+                Container(
+                  margin: EdgeInsets.only(top:20),
+                  color: Color(0xFF24242E),
+                  child: Row(
+                    children: [
+                      Spacer(),
+
+                      IconButton(
+                        onPressed: () {},
+                        icon: SvgPicture.network("assets/icons/linkedin.svg"),
+                      ),
+                      IconButton(
+                        onPressed: () {},
+                        icon: SvgPicture.network("assets/icons/github.svg"),
+                      ),
+                      IconButton(
+                        onPressed: () {},
+                        icon: SvgPicture.network("assets/icons/twitter.svg"),
+                      ),
+                      IconButton(
+                        onPressed: () {},
+                        icon: SvgPicture.network("assets/icons/behance.svg"),
+                      ),
+                      Spacer(),
+                    ],
+                  ),
                 ),
               ],
             ),
