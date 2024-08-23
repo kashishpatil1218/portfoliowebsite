@@ -5,26 +5,29 @@ class Project{
 List<Project> demo_Projects=[
   Project(
     title: 'Responcive Admine panel or Dashboard - Flutter UI',
-    description:'Build a responsive admin panel or dashboard with Flutter UI for a sleek, intuitive interface. Enjoy real-time updates, adaptive layouts, and smooth performance across all devices,Flutter UI featuring both light and dark themes. Enjoy a modern, customizable',
+    description: '"On Flutter V2.* web officially supported on a stable branch. Today I share an Admin panel or you can call it dashboard UI build with flutter. Now you can build your app dashboard using flutter. This dashboard contains almost everything that you need like a chart, table, nice small card for showing info."',
   ),
   Project(
     title:'E-commerce Complate APP - Flutter UI',
-    description: 'Launch your online store with our complete e-commerce app built using Flutter UI. Featuring a sleek design, intuitive navigation, and seamless shopping experience, it covers everything from product listings to secure checkout,Outlook email experience with a fully responsive UI  '
+    description: "In the first part of our complete e-commerce app, we show you how you can create a nice clean onboarding screen for your e-commerce app that can run both Andriod and iOS devices because it builds with flutter. Then on the second episode, we build a Sign in, Forgot Password screen with a custom error indicator.",
   ),
   Project(
     title: 'Out look Email App Redesign - Flutter Fully Responsice Design UI',
-    description: '"Revamp your Outlook email experience with a fully responsive UI redesign using Flutter.optimized for seamless performance across all devices, enhancing both usability and visual appeal for efficient email management,with a fully responsive UI "',
+    description: ' "We redesign the outlook app also make it responsive so that you can run it everywhere on your phone, tab, or web. In this flutter responsive video, we will show you the real power of flutter. Make mobile, web, and desktop app from a single codebase.",',
   ),
   Project(
     title: 'Chat / Messaging App Light Dark theam -  Flutter UI',
-    description: 'Create a dynamic chat/messaging app with Flutter UI featuring both light and dark themes. Enjoy a modern, customizable interface that adapts to user preferences,Flutter UI featuring both light and dark themes. Enjoy a modern, customizable',
+  description: '"Today we gonna build messing/chat app #ui using #flutter that runs both Android and iOS devices also has a dark and light theme. We create in total 4 screens all of that support both Dark Theme and Light Theme. At first, we design a welcome screen that contains an image with a tag line also has a skip button."'
   ),
+
   Project(
     title: 'Welcome Page Login page and sign Up page - Flutter UI',
-    description: '"Design a sleek welcome, login, and sign-up experience with Flutter UI.intuitive interface that ensures a smooth user journey from initial greeting to account creation, optimized for both aesthetic appeal and functionality,Flutter UI featuring both customizable"',
+    description:
+    "In the first part of our complete e-commerce app, we show you how you can create a nice clean onboarding screen for your e-commerce app that can run both Andriod and iOS devices because it builds with flutter. Then on the second episode, we build a Sign in, Forgot Password screen with a custom error indicator.",
   ),
   Project(
     title: 'Covid-19 App - Flutter UI',
-    description: '"Stay informed with a comprehensive Covid-19 app built using Flutter UI. Featuring real-time updates, interactive maps, and key health information, this app provides a user-friendly interface for tracking the pandemic and accessing essential resources ,',
+    description:
+    "We redesign the outlook app also make it responsive so that you can run it everywhere on your phone, tab, or web. In this flutter responsive video, we will show you the real power of flutter. Make mobile, web, and desktop app from a single codebase.",
   ),
 ];

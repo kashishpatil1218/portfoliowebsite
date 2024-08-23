@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:portfoliowebsite/Screens/Constant.dart';
+import 'package:portfoliowebsite/Screens/main/responsive.dart';
 import 'package:portfoliowebsite/models/projects.dart';
 
 class ProjectCard extends StatelessWidget {
@@ -27,7 +28,7 @@ class ProjectCard extends StatelessWidget {
           const SizedBox(height: defaultPadding),
           Text(
             project.description!,
-            maxLines: 4,
+            maxLines:Responsive.isMobileLarge(context)?3: 4,
             overflow: TextOverflow.ellipsis,
             style: TextStyle(height: 1.5, color: Colors.grey),
           ),
