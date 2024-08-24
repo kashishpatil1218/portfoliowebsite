@@ -12,7 +12,7 @@ class MyBuildAnimatedText extends StatelessWidget {
       // style: TextStyle(
       //   color: Colors.white,
       // ),
-      style: Theme.of(context).textTheme.headlineSmall!,
+      style: Theme.of(context).textTheme.headlineSmall!.copyWith(color: Colors.white,fontSize: 15)!,
       maxLines: 1,
       child: Row(
         children: [

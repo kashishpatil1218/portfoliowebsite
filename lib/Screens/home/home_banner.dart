@@ -30,14 +30,8 @@ class HomeBanner extends StatelessWidget {
                 Text(
                   "Discover my Amazing  \nArt Space!",
                   style: Responsive.isDesktop(context)
-                      ? TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 43)
-                      : TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 50),
+                      ?  Theme.of(context).textTheme.headlineMedium!.copyWith(color: Colors.white,fontWeight: FontWeight.bold)
+                      :  Theme.of(context).textTheme.headlineLarge!.copyWith(color: Colors.white,fontWeight: FontWeight.bold)
                 ),
                 if (Responsive.isMobileLarge(context)) const SizedBox(height: 20,),
                 MyBuildAnimatedText(),
@@ -68,3 +62,12 @@ class HomeBanner extends StatelessWidget {
     );
   }
 }
+//TextStyle(
+//                           color: Colors.white,
+//                           fontWeight: FontWeight.bold,
+//                           fontSize: 43)
+
+//TextStyle(
+//                           color: Colors.white,
+//                           fontWeight: FontWeight.bold,
+//                           fontSize: 50),

@@ -17,7 +17,8 @@ class HeighLight extends StatelessWidget {
         ),
         Text(
           label!,
-          style: TextStyle(color: Colors.white),
+         style: Theme.of(context).textTheme.headlineSmall!.copyWith(fontSize: 15,fontWeight: FontWeight.w500)
+         // style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),
         ),
       ],
     );

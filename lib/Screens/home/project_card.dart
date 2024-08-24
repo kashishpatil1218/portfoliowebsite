@@ -23,6 +23,7 @@ class ProjectCard extends StatelessWidget {
             project.title!,
             maxLines: 2,
             overflow: TextOverflow.ellipsis,
+            style: Theme.of(context).textTheme.headlineSmall!.copyWith(color: Colors.white,fontSize:15)
           ),
           Spacer(),
           const SizedBox(height: defaultPadding),
@@ -30,7 +31,7 @@ class ProjectCard extends StatelessWidget {
             project.description!,
             maxLines:Responsive.isMobileLarge(context)?3: 4,
             overflow: TextOverflow.ellipsis,
-            style: TextStyle(height: 1.5, color: Colors.grey),
+            style: TextStyle(height: 1.5,),
           ),
           Spacer(),
           const SizedBox(height: defaultPadding),

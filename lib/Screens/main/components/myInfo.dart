@@ -9,7 +9,7 @@ class myInfo extends StatelessWidget {
       aspectRatio: 1.23,
       child: Container(
         color: Color(0xFF242430),
-        child:  Column(
+        child:   Column(
           children: [
             Spacer(flex: 2),
             CircleAvatar(
@@ -20,7 +20,8 @@ class myInfo extends StatelessWidget {
             Spacer(),
             Text(
               'Kashish Patil',
-              style:Theme.of(context).textTheme.bodyMedium,
+              //style:Theme.of(context).textTheme.bodyMedium,//
+              style: TextStyle(color: Colors.white),
             ),
             Text(
               'Flutter Developer & Founder of \n The Flutter Way',

@@ -7,14 +7,15 @@ class skills extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return  Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Divider(),
         Padding(
-          padding: const EdgeInsets.symmetric(vertical: defaultPadding),
+          padding: EdgeInsets.symmetric(vertical: defaultPadding),
           child: Text(
             "Skills",
+           //style: Theme.of(context).textTheme.bodyMedium,
             style: TextStyle(
                 color: Colors.white, fontWeight: FontWeight.w200),
           ),

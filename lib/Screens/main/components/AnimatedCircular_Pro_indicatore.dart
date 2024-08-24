@@ -31,7 +31,7 @@ class AnimatedCircularProgressIndecator extends StatelessWidget {
                 Center(
                   child: Text(
                     (value * 100).toInt().toString() + '%',
-                    style: TextStyle(color: Colors.white),
+                   style: TextStyle(color: Colors.white),
                   ),
                 ),
               ],

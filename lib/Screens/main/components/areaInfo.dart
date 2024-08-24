@@ -22,7 +22,6 @@ class areaInfo extends StatelessWidget {
           ),
           Text(
             text!,
-            style: TextStyle(color: Colors.grey),
           ),
         ],
       ),

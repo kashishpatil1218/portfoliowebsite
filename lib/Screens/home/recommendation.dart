@@ -17,11 +17,12 @@ class Recommendations extends StatelessWidget {
         children: [
           Text(
             "Recommendations",
-            style: TextStyle(
-              color: Colors.white,
-              fontWeight: FontWeight.w500,
-              fontSize: 18,
-            ),
+            style:Theme.of(context).textTheme.headlineSmall!.copyWith(fontSize:20),
+            // style: TextStyle(
+            //   color: Colors.white,
+            //   fontWeight: FontWeight.w500,
+            //   fontSize: 18,
+            // ),
           ),
           SizedBox(
             height: defaultPadding,

@@ -16,8 +16,9 @@ class MyProject extends StatelessWidget {
       children: [
         Text(
           "My Projects",
-          style: TextStyle(
-              color: Colors.white, fontWeight: FontWeight.w500, fontSize: 18),
+          style: Theme.of(context).textTheme.headlineSmall!.copyWith(fontSize:20)
+          // style: TextStyle(
+          //     color: Colors.white, fontWeight: FontWeight.w500, fontSize: 18),
         ),
         const SizedBox(
           height: defaultPadding,

@@ -18,8 +18,9 @@ class animatedCounter extends StatelessWidget {
       duration: defaultDuration,
       builder: (context, value, child) => Text(
         "$value$text",
-        style: TextStyle(
-            color: primaryColor, fontWeight: FontWeight.bold, fontSize: 18),
+        // style: TextStyle(
+        //     color: primaryColor, fontWeight: FontWeight.bold, fontSize: 18),
+        style: Theme.of(context).textTheme.headlineSmall!.copyWith(color:primaryColor )
       ),
     );
   }
